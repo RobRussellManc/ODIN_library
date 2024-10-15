@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 100vh;
+}
+
+.sidebar {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+
+.main_box {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(201, 120, 22);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.book_box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.book_box > span {
+    display: block;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <span id="title"><h2>Rob's Library</h2></span>
+            You currently have <span id="num_books"> xx </span> books in your library.
+            <form id="myForm">
+                <label for="bookName">Book name:</label><br>
+                <input type="text" id="fname" maxlength="20"><br>
+
+                <label for="authorName">Author:</label><br>
+                <input type="text" id="authorName" maxlength="20"><br>
+
+                <label for="numPages">Number of pages:</label><br>
+                <input type="number" id="numPages" min="1"><br>
+                
+                <label for="hasRead">Have you read the book? </label><br>
+
+                <input type="radio" name="hasRead" id="true" value="Yes">
+                <label for="true">Yes</label><br>
+                <input type="radio" name="hasRead" id="false" value="No">
+                <label for="false">No</label><br>
+         
+                   
+                </select>
+                <br>
+                
+                <input form="myForm" type="submit" id="submit" value="submit" >
+         
+
+            </form>
+        </div>
+        <div class="main_box">
+           
+        </div>
+    </div>
+    
+</body>
+</html>
