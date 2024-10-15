@@ -1,0 +1,23 @@
+[33mcommit a2101af1afeefb4f959d7a9f007e9979412b2474[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;32madd_objects[m[33m)[m
+Author: Robert <94055223+RobRussellManc@users.noreply.github.com>
+Date:   Tue Oct 15 18:08:51 2024 +0100
+
+    Updated to use an array of classes
+
+[33mcommit 2c75c811213f486717877ea5202194c858dca5e3[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Robert <94055223+RobRussellManc@users.noreply.github.com>
+Date:   Tue Oct 15 15:06:00 2024 +0100
+
+    Add delete button and read buttons
+
+[33mcommit e793322c81a9e11bc0716fe9f2f9fa5a5d5f550e[m
+Author: Robert <94055223+RobRussellManc@users.noreply.github.com>
+Date:   Tue Oct 15 13:41:24 2024 +0100
+
+    basic funtionality working
+
+[33mcommit aed08409bd284528c93d08bd141103ffeb55d1a8[m
+Author: Rob Russell <94055223+RobRussellManc@users.noreply.github.com>
+Date:   Tue Oct 15 07:06:41 2024 +0100
+
+    Initial commit

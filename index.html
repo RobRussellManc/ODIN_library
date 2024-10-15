@@ -11,10 +11,14 @@
     <div class="container">
         <div class="sidebar">
             <span id="title"><h2>Rob's Library</h2></span>
-            You currently have <span id="num_books"> xx </span> books in your library.
+            You currently have <span id="num_books"> xx </span> books in your library.<p>
+
+            <button id="gridView">Grid view</button>
+            <button id="tableView">Table view</button>
+            
             <form id="myForm">
-                <label for="bookName">Book name:</label><br>
-                <input type="text" id="fname" maxlength="20"><br>
+                <label for="bookNameField">Book name:</label><br>
+                <input type="text" id="bookNameField" maxlength="20" required><br>
 
                 <label for="authorName">Author:</label><br>
                 <input type="text" id="authorName" maxlength="20"><br>
@@ -22,11 +26,11 @@
                 <label for="numPages">Number of pages:</label><br>
                 <input type="number" id="numPages" min="1"><br>
                 
-                <label for="hasRead">Have you read the book? </label><br>
+                Have you read the book?<br>
 
-                <input type="radio" name="hasRead" id="true" value="Yes">
+                <input type="radio" name="hasRead" id="true" value="yes" required>
                 <label for="true">Yes</label><br>
-                <input type="radio" name="hasRead" id="false" value="No">
+                <input type="radio" name="hasRead" id="false" value="no">
                 <label for="false">No</label><br>
          
                    
